@@ -1,0 +1,8 @@
+# Do not commit local OAuth credentials, rclone configs or personal sync data.
+*.json
+*.token
+*.secret
+rclone.conf
+.env
+*.sqlite
+*.db
